@@ -56,8 +56,10 @@
       ul {
          display: table;
          margin: 0 auto;
+
       }
 
+/*
       li {
          display: table-cell;
          width: 80px;
@@ -81,7 +83,32 @@
          position: relative;
          top: 8px;
       }
+ */
+
+      li {
+         display: table-cell;
+         width: 80px;
+         height: 47px;
+
+         font-size: 9px;
+         font-weight: 500;
+         color: #000;
+         text-align: center;
+      }
+
+      a::before {
+         content: '';
+         display: block;
+         margin: 0 auto;
+         width: 42px;
+         height: 29px;
+         background-size: 42px 29px;
+      }
       
+      a > span {
+         line-height: 16px;
+      }
+
       &__cat.active {
          color: $boxBlue;
       }

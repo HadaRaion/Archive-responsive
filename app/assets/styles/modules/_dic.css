@@ -42,7 +42,6 @@
 
       &__title {
          margin-top: 0px;
-         float: left;
       }
    }
 
@@ -50,6 +49,7 @@
    &__detail__related  {
       margin-top: 11px;
       margin-left: 13px;
+      
       li {
          display: inline-block;      
          line-height: 24px;
@@ -81,7 +81,7 @@
       background-color: #a7a7a7;
       color: #fff;
       font-size: 8px;
-      margin-left: 8px;
+      margin-left: 13px;
       transform: translateY(2px);
 
       &.active{
