@@ -20,7 +20,7 @@
       }
       
       &__textbox {
-         height: 175px;
+         height: 132px;
       }
 
       .text-date {
@@ -28,7 +28,15 @@
       }
    
       .text {
-         -webkit-line-clamp: 3;
+         margin-top: 1px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         display: -webkit-box;
+         -webkit-line-clamp: 2;
+         -webkit-box-orient: vertical;
+         word-wrap:break-word; 
+         font-size: 14px;
+         line-height: 23px;
       }
    }
 }

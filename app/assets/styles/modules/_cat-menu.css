@@ -33,7 +33,7 @@
 
    input:checked ~ label::after {
       content: "\e930";
-      color: #2da3ff;
+      color: $boxBlue;
    }
 
    .depth1 {
@@ -48,7 +48,7 @@
       }
 
       & > input:checked ~ label {
-         color: #2da3ff;
+         color: $boxBlue;
       }
 
       & > label::after {
@@ -89,7 +89,7 @@
       }
 
       & > input:checked ~ label {
-         color: #2da3ff;
+         color: $boxBlue;
       }
 
       .line-depth2 {
@@ -120,7 +120,7 @@
       }
 
       & > input:checked ~ label {
-         color: #2da3ff;
+         color: $boxBlue;
       }
 
       & > ul > li:first-child {
@@ -147,7 +147,7 @@
       }
 
       & > input:checked ~ label {
-         color: #2da3ff;
+         color: $boxBlue;
       }
 
       & > ul > li:first-child {
@@ -169,4 +169,28 @@
       padding: 1px 0;
    }
 
+}
+
+/* p04 페이지 안에 모달 메뉴 분류 */
+
+.modal-cat .cat-menu {
+   input:checked ~ label::after {
+      color: $medium;
+   }
+
+   .depth1 > input:checked ~ label {
+      color: $medium;
+   }
+
+   .depth2 > input:checked ~ label {
+      color: $medium;
+   }
+
+   .depth3 > input:checked ~ label {
+      color: $medium;
+   }
+
+   .depth4 > input:checked ~ label {
+      color: $medium;
+   }
 }

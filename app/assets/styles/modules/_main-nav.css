@@ -60,7 +60,7 @@
          font-size: 11px;
          font-weight: bold;
          letter-spacing: -0.33px;
-         color: #55aaec;
+         color: $boxBlue;
       }
       .link-caption{
          display: block;

@@ -27,14 +27,8 @@
 }
 
 .recent-series {
-   width: 288px;
-   margin: 0 auto;
 
-   @mixin atSmall {
-      width: calc(100% - 42px);
-      margin: 0 auto;
-   }
-   
+
    li:last-child {
       margin-bottom: 28px;
    }

@@ -59,17 +59,18 @@
 
    &__buttons {
       margin-top: 30px;
+      text-align: center;
 
       a {
          margin-right: 4px;
       }
 
-      .to-list {
-         padding-right: 3px;
-         i {
-            color: #fff;
-         }
-      }
-   }  
+   }
+   
+   .to-list {
+      float: right;
+      transform: translateY(-30px);
+      margin-bottom: -30px;
+   }
 }
 

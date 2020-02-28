@@ -10,11 +10,11 @@
    &__nav {
       margin: 0 auto;
       text-align: center;
+      color: #FFF;
+      font-weight: bold;
 
       li {
          display: inline-block;
-         color: #fff;
-         font-weight: bold;
       }
 
       li::after {
@@ -30,6 +30,7 @@
          content: '';
          margin: 0
       }
+
    }
 
    &__related{

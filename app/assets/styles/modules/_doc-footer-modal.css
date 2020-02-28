@@ -125,7 +125,7 @@
       }
 
       li:first-child {
-         color: #73c2ff;
+         color: $medium;
       }
 
       li::before {

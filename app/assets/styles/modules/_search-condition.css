@@ -80,7 +80,7 @@
          width: 85px;
          height: 28px;
          border-radius: 14px;
-         background-color: #55aaec;
+         background-color: $boxBlue;
          font-size: 13px;
          font-weight: bold;
          color: #fff;

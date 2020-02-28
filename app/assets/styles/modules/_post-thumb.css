@@ -24,12 +24,12 @@
    &__img {
       height: 0;
       position: relative;
-      padding-top: 75%;  /* 4:3 ratio */
+      padding-top: 70%;  /* 75% 4:3 ratio */
       overflow: hidden;
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
-      border: 1px solid #ccc;
+      border: 1px solid #e3e3e3;
    }
 
    h2 {

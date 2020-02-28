@@ -16,8 +16,8 @@
 <![endif]-->
 
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 
     <link rel="stylesheet" href="temp/styles/styles.css">
@@ -31,7 +31,7 @@
 <!-- 상단메뉴 start -->
         <div class="site-header__top-menu">
             <div class="wrapper">
-                <div class="site-header__top-menu__logo" style="background-image: url();" >
+                <div class="site-header__top-menu__logo" style="background-image: url(temp/images/logo.png);" >
                     <a href="/">아카이브로고</a>
                 </div>
 
@@ -517,26 +517,27 @@
       </div>
 <!-- pdf end -->
 
-<!-- ccl + URL 복사 start -->
-      <div class="ccl-social">
+<!-- ccl + URL 복사 + 목록 버튼 start -->
+      <div class="ccl-btns">
 
 <!-- ccl start -->
-         <div class="ccl">
+         <div class="ccl-btns__ccl">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko" target="_blank">
-               <div class="ccl-image"></div>
+               <div class="ccl-btns__ccl-image"></div>
             </a>
          </div>
 <!-- ccl end -->
 
-<!-- URL 복사 버튼 start -->
-         <div class="urlcopy">
+<!-- URL 복사 + 목록 버튼 start -->
+         <div class="ccl-btns__btns">
             <button type="button" class="btn-url" onclick="CopyURL();">
                <i class="icon-copy"></i>URL 복사
             </button>
+            <a href="/p03.html" class="btn-list" title="목록보기"></a>
          </div>
-<!-- URL 복사 버튼  end -->
+<!-- URL 복사 + 목록 버튼버튼  end -->
       </div>
-<!-- ccl + URL 복사 end -->
+<!-- ccl + URL 복사 + 목록 버튼 end -->
 
    </div>
 
@@ -563,7 +564,7 @@
                <li class="li-title-dot">형태분류
                   <ul>
                      <li class="detail-class">사진류</li>
-                     <li class="btn-for-others"><button type="button" class="btn-small" id="toggleType">다른 기록</button></li>
+                     <li class="btn-for-others"><button type="button" class="btn-small medium-color" id="toggleType">다른 기록</button></li>
 
                      <li class="other-contents">
                         <ul>
@@ -581,7 +582,7 @@
                   <ul>
                      <li class="detail-class">민간기업</li>
                      <li class="detail-class">한국문헌정보(주)</li>
-                     <li class="btn-for-others"><button type="button" class="btn-small">다른 기록</button></li>
+                     <li class="btn-for-others"><button type="button" class="btn-small medium-color">다른 기록</button></li>
 
                      <li class="other-contents">
                         <ul>
@@ -599,7 +600,7 @@
                <li class="li-title-dot">주제분류
                   <ul>
                      <li class="detail-class">주제분류</li>
-                     <li class="btn-for-others"><button type="button" class="btn-small">다른 기록</button></li>
+                     <li class="btn-for-others"><button type="button" class="btn-small medium-color">다른 기록</button></li>
 
                      <li class="other-contents">
                         <ul>
@@ -619,7 +620,7 @@
                      <li class="detail-class">해방 이후</li>
                      <li class="detail-class">기록관리 법령 제정 후</li>
                      <li class="detail-class">2019년</li>
-                     <li class="btn-for-others"><button type="button" class="btn-small">다른 기록</button></li>
+                     <li class="btn-for-others"><button type="button" class="btn-small medium-color">다른 기록</button></li>
 
                      <li class="other-contents">
                         <ul>
@@ -745,11 +746,14 @@
    <div class="wrapper">
 
 <!-- 아카이브소개 + 최근소식 시작 -->
-      <ul class="site-footer__nav">
+      <!-- <ul class="site-footer__nav">
          <li>
             <a href="/p11.html">아카이브 소개</a>
          </li> 
-      </ul>
+      </ul> -->
+      <div class="site-footer__nav">
+         <a href="/p11.html">아카이브 소개</a>
+      </div>
 <!-- 아카이브소개 + 최근소식 끝 -->
 
 <!-- 유관기관 시작 -->

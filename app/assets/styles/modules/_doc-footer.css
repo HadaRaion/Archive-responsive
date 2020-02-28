@@ -21,7 +21,7 @@
          padding: 0 31px;
 
          &.active{
-            color: $boxBlue;
+            color: $medium;
          }
       }
    }

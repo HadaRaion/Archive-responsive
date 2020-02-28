@@ -19,7 +19,7 @@
       }
 
       &.active {
-         background-color: #55aaec;
+         background-color: $boxBlue;
       }
 
       &.active::after {

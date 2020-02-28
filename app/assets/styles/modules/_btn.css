@@ -73,7 +73,7 @@
       width: 212px;
       height: 44px;
       border-radius: 20px;
-      background-color: #55aaec;
+      background-color: $boxBlue;
       font-size: 15px;
       font-weight: bold;
       color: #fff;
@@ -97,13 +97,13 @@
       font-size: 8px;
       line-height: 8px;
       font-weight: 500;
-      color: #fff;
+      color: #3d3d3d;
       background : #a7a7a7;
    
       &:after{
          content: "\e913";
          font-family: 'xeicon';
-         color: #FFF;
+         color: #3d3d3d;
          font-size: 8px;
          margin-left: 3px;
       }
@@ -114,6 +114,10 @@
          &:after {
             content: "\e91a";
          }
+      }
+
+      &.medium-color.active {
+         background : $medium;
       }
    }
    
@@ -160,6 +164,19 @@
          margin-left: 2px;
          font-size: 18px;
       }
+   }
+
+
+   &-list {
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      font-size: 0;
+      background-image: url(../images/icons/icon-post-list.svg);
+      background-position: center center;
+      background-size: 30px 30px;
+      background-repeat: no-repeat;
    }
 
 }

@@ -73,7 +73,7 @@
       > input {
             display: block;
             float: left;
-            width: calc(100% - 90px);
+            width: calc(100% - 80px);
             height: 26px;
             line-height: 26px;
             background-color: #ececec;
@@ -115,13 +115,12 @@
          font-size: 20px;
          transform: translateY(4px);
       }
-
-      .to-list {
-         padding-right: 3px;
-         i {
-            color: #fff;
-         }
-      }
    }  
+   
+   .to-list {
+      float: right;
+      transform: translateY(-30px);
+      margin-bottom: -30px;
+   }
 
 }
