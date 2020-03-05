@@ -4,6 +4,7 @@
 
    &.active {
       display: block;
+      border-bottom: solid 2px #e3e3e3;
    }
    
    h3 {

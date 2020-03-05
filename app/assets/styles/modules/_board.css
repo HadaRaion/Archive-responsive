@@ -73,13 +73,13 @@
    }
 
    .board-post-1 p {
-      max-width: calc(100% - 25px);
+      max-width: calc(100% - 30px);
    }
    .board-post-2 p {
-      max-width: calc(100% - 45px);
+      max-width: calc(100% - 50px);
    }
    .board-post-3 p {
-      max-width: calc(100% - 65px);
+      max-width: calc(100% - 70px);
    }
    
    .board-post.re p::before {

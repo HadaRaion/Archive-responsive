@@ -90,6 +90,7 @@
       background : #a7a7a7;
    }
 
+
    &-small {
       height: 15px;
       padding: 0 5px;
@@ -97,22 +98,30 @@
       font-size: 8px;
       line-height: 8px;
       font-weight: 500;
-      color: #3d3d3d;
+      color: #fff;
       background : #a7a7a7;
    
       &:after{
          content: "\e913";
          font-family: 'xeicon';
-         color: #3d3d3d;
          font-size: 8px;
          margin-left: 3px;
       }
       
       &.active {
          background : $boxBlue;
-   
+
+
          &:after {
             content: "\e91a";
+         }
+      }
+
+      &.medium-color {
+         color: #3d3d3d;
+
+         &:after {
+            color: #3d3d3d;
          }
       }
 
@@ -120,6 +129,7 @@
          background : $medium;
       }
    }
+   
    
    &-load-more {
       margin: 10px auto -10px;

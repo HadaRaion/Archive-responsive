@@ -14,14 +14,20 @@
       right: 20px;
    }
 
+   .wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+
    form{
-      margin-top: 45%;
+
    }
 
    legend {
       width: 130px;
       height: 34px;
-      margin: 0 auto;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center center;
@@ -29,7 +35,7 @@
 
    &__contents{
       width: 210px;
-      margin: 76px auto 0;
+      margin: 0 auto;
  
       label {
          display: none;

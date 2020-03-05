@@ -124,7 +124,7 @@
          line-height: 30px;
       }
 
-      li:first-child {
+      li.current-post {
          color: $medium;
       }
 
